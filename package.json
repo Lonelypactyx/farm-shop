@@ -1,0 +1,33 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "customize-cra": "1.0.0",
+    "react": "18.2.0",
+    "react-app-rewired": "2.2.1",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.3.0",
+    "styled-components": "5.3.0",
+    "swiper": "9.4.1"
+  },
+  "devDependencies": {
+    "@svgr/rollup": "^8.1.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "5.7.2",
+    "vite": "^5.0.11"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

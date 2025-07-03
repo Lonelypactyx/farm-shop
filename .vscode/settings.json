@@ -1,0 +1,5 @@
+{
+    "markdown.copyFiles.overwriteBehavior": "overwrite",
+    "files.saveConflictResolution": "overwriteFileOnDisk",
+    "files.enableTrash": false
+}
