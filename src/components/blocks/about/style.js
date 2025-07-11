@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Section from "/src/components/ui/section/section";
 import aboutImage from "/src/assets/about.svg";
+console.log(aboutImage);
 
 export const StyledAbout = styled(Section)`
   min-height: 600px;
