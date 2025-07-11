@@ -1,5 +1,6 @@
 import styled, { css } from "styled-components";
 import checkboxSelect from "/src/assets/checkbox.svg";
+console.log(checkboxSelect);
 
 export const HiddenInput = styled.input`
   position: absolute;
