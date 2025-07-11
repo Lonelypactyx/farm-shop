@@ -29,15 +29,14 @@ export const CheckboxLabel = styled.li`
       display: block;
       height: 22px;
       width: 22px;
-      border: 1px solid rgba(0, 0, 0, 0.1);
-      background: url(${checkboxSelect}) no-repeat center;
+      background: url(${checkboxSelect}) no-repeat center, yellowgreen;
       ${(props) =>
         props.$isChecked
           ? css`
               background: url(${checkboxSelect}) no-repeat center, ${props.theme.buttonColor};
             `
           : css`
-              background-color: ${props.theme.bgColorGray};
+              border: 1px solid rgba(0, 0, 0, 0.1);
             `}
     }
   }
