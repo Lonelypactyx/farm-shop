@@ -1,6 +1,5 @@
 import styled, { css } from "styled-components";
 import checkboxSelect from "/src/assets/checkbox.svg";
-console.log(checkboxSelect);
 
 export const HiddenInput = styled.input`
   position: absolute;
@@ -30,14 +29,14 @@ export const CheckboxLabel = styled.li`
       display: block;
       height: 22px;
       width: 22px;
-      background: url(${checkboxSelect}) no-repeat center, yellowgreen;
+      border: 1px solid rgba(0, 0, 0, 0.1);
       ${(props) =>
         props.$isChecked
           ? css`
-              background: url(${checkboxSelect}) no-repeat center, ${props.theme.buttonColor};
+              background: url("${checkboxSelect}") no-repeat center, ${props.theme.buttonColor};
             `
           : css`
-              border: 1px solid rgba(0, 0, 0, 0.1);
+              background-color: ${props.theme.bgColorGray};
             `}
     }
   }
