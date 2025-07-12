@@ -80,7 +80,7 @@ const productsData = [
       "Клубника американской селекции, акклиматизированная в северных широтах. Ягоды плотные, имеют медовый аромат. Выращена и бережно собрана на клубничных плантациях Архангельской области.",
     price: 400,
     weight: 500,
-    image: "../../../src/assets/klubnika.jpg",
+    image: "https://i.ibb.co/8gfqGQJM/klubnika.jpg",
     specifications: [
       {
         property: "Масса",
